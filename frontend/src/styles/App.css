@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.button-style {
+  @apply btn-sm px-3 py-1;
+}
+
+.add-note-btn , .save-btn{
+  @apply bg-transparent hover:bg-cyan-700 text-cyan-900 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded m-2;
+}
+
+.cancel-btn{
+  @apply bg-transparent hover:bg-gray-700 text-cyan-900 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded m-2;
+}
+
+/* WebKit */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+/* Firefox */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #fff;
+}
+.scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+
+@media (max-width: 765px) {
+  .button-style,
+  .pagination-number {
+    margin: 3px;
+  }
+}
+
+@media (max-width: 765px) {
+  .button-style,
+  .pagination-number {
+    margin: 3px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-section-grid {
+    @apply grid-cols-2;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-section-grid {
+    @apply grid-cols-1;
+  }
+}

@@ -1,0 +1,18 @@
+.pagination-position {
+  @apply flex flex-col md:flex-row space-x-2 justify-center;
+}
+
+.pagination-number {
+  @apply btn btn-link btn-sm px-2 py-1;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.pagination-number:active,
+.pagination-number.active {
+  background-color: black; 
+  color: white; 
+}

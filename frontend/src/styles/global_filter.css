@@ -1,0 +1,8 @@
+.search-input {
+  @apply px-2 py-1 border rounded-lg bg-white text-cyan-900 font-normal;
+}
+
+.search-input:focus,
+.search-input:hover {
+  @apply bg-slate-100;
+}

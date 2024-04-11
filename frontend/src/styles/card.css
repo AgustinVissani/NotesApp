@@ -1,0 +1,49 @@
+.card {
+  @apply max-w-sm w-full rounded flex flex-col;
+}
+
+.padding {
+  @apply px-6 py-4;
+}
+
+.card-title {
+  @apply font-extrabold text-xl mb-2 text-cyan-700 text-center justify-center;
+}
+
+.card-content {
+  @apply text-cyan-900 font-normal;
+  flex-grow: 1;
+  overflow-wrap: break-word;
+  max-height: 8rem; 
+  overflow-y: auto; 
+}
+
+@media (min-width: 640px) {
+  .card {
+    @apply max-w-sm;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+    @apply max-w-md;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    @apply max-w-lg;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    @apply max-w-xl;
+  }
+}
+
+@media (min-width: 1536px) {
+  .card {
+    @apply max-w-2xl;
+  }
+}

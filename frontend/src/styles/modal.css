@@ -1,0 +1,32 @@
+.title-container {
+  @apply flex justify-between mb-4;
+}
+
+.title {
+  @apply text-lg font-bold text-cyan-900;
+}
+
+.label-title {
+  @apply text-cyan-900 font-bold;
+}
+
+.input-text-title {
+  @apply text-cyan-900 font-normal p-2 m-2 w-full;
+}
+
+.input-text-content {
+  @apply text-cyan-900 font-normal p-2 m-2 w-full border;
+  resize: horizontal;
+}
+
+.select-category {
+  @apply text-cyan-900 font-normal;
+}
+
+.input-row {
+  @apply flex items-center mb-4;
+}
+
+.button-row {
+  @apply flex justify-between;
+}

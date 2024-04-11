@@ -1,0 +1,44 @@
+.table {
+  @apply w-auto justify-center items-center border-none;
+}
+
+.table td,
+.table th {
+  @apply px-4 py-2;
+}
+
+.table th {
+  @apply bg-white text-gray-800 font-semibold;
+}
+
+.button {
+  @apply px-4 py-2 bg-emerald-700 text-white rounded-md;
+}
+
+.button:hover {
+  @apply bg-emerald-900;
+}
+
+.delete-button {
+  @apply px-4 py-2 bg-red-700 text-white rounded-md;
+}
+
+.delete-button:hover {
+  @apply bg-red-900;
+}
+
+.cancel-edit-btn {
+  @apply px-4 py-2 bg-gray-700 text-white rounded-md;
+}
+
+.cancel-edit-btn:hover {
+  @apply bg-gray-900;
+}
+
+.input-text-category {
+  @apply text-cyan-900 font-normal p-2 w-auto rounded-md;
+}
+
+.edit-input-category {
+  @apply rounded-md;
+}
